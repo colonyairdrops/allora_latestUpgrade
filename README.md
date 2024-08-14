@@ -125,6 +125,10 @@ nano config.json
 **Paste below code in it**
 * Replace your wallet `Seed Phrase`
 * `addressKeyName` was set as testkey since we choose it in step: Add Wallet
+* Check your `addressKeyName` with
+```console
+allorad keys list
+```
 ```
 {
     "wallet": {
