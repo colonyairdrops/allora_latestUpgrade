@@ -178,6 +178,16 @@ chmod +x init.config
 ```
 * If you need to make changes to your `config.json` , you must rerun this command again after your changes are done
 
+```console
+nano model.py
+```
+* Change intervals to
+```console
+intervals = ["10m", "20m", "1h", "1d"]
+```
+![Screenshot 2024-08-14 102728](https://github.com/user-attachments/assets/bf6d0785-26f8-43f6-8ab1-098c00ffc4b9)
+
+* CTRL X Y, Enter
 
 ```console
 docker compose up -d --build
